@@ -3,7 +3,7 @@
   "version": "1.0.0",
   "description": "",
   "scripts": {
-    "test": "$(npm bin)/bulk-decaffeinate -d ./coffeescript check"
+    "test": "rm ./coffeescript/test/importing/import.js ./coffeescript/test/importing/import.extension.js && $(npm bin)/bulk-decaffeinate -d ./coffeescript check"
   },
   "author": "Mads Konradsen",
   "license": "MIT",
