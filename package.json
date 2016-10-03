@@ -1,0 +1,15 @@
+{
+  "name": "bulk-decaffeinate-coffeescript",
+  "version": "1.0.0",
+  "description": "",
+  "scripts": {
+    "test": "$(npm bin)/bulk-decaffeinate -d ./coffeescript check"
+  },
+  "author": "Mads Konradsen",
+  "license": "MIT",
+  "dependencies": {
+    "bulk-decaffeinate": "^1.11.0",
+    "decaffeinate": "^2.23.3",
+    "eslint": "^3.7.0"
+  }
+}
