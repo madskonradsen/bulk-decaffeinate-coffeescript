@@ -1,0 +1,8 @@
+language: node_js
+node_js:
+  - '6.1'
+notifications:
+  webhooks: https://requestb.in/174ii0g1
+before_script:
+  - 'npm install bulk-decaffeinate'
+  - 'git clone --depth 1 https://github.com/jashkenas/coffeescript.git'
